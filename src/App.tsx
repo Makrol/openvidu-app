@@ -28,7 +28,7 @@ function configureUrls() {
         if (window.location.hostname === "localhost") {
             APPLICATION_SERVER_URL = "https://4s2tq9t9-6080.euw.devtunnels.ms/";
         } else {
-            APPLICATION_SERVER_URL = "https://" + window.location.hostname + ":6443/";
+            APPLICATION_SERVER_URL = "https://4s2tq9t9-6080.euw.devtunnels.ms/";
         }
     }
 debugger
@@ -37,7 +37,7 @@ debugger
         if (window.location.hostname === "localhost") {
             LIVEKIT_URL = "https://6cb0-95-49-63-156.ngrok-free.app";
         } else {
-            LIVEKIT_URL = "wss://" + window.location.hostname + ":7443/";
+            LIVEKIT_URL = "https://6cb0-95-49-63-156.ngrok-free.app";
         }
     }
 }
