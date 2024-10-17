@@ -38,7 +38,7 @@ function configureUrls() {
         if (window.location.hostname === "localhost") {
             LIVEKIT_URL = "http://localhost:7880/";
         } else {
-            LIVEKIT_URL = "https://4fb6-81-26-6-36.ngrok-free.app/";
+            LIVEKIT_URL = "https://ead9-95-49-63-156.ngrok-free.app/";
         }
     }
 }
