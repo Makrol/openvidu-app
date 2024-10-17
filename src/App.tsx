@@ -23,21 +23,22 @@ let LIVEKIT_URL = "";
 configureUrls();
 
 function configureUrls() {
+    debugger
     // If APPLICATION_SERVER_URL is not configured, use default value from OpenVidu Local deployment
     if (!APPLICATION_SERVER_URL) {
         if (window.location.hostname === "localhost") {
-            APPLICATION_SERVER_URL = "https://4s2tq9t9-6080.euw.devtunnels.ms/";
+            APPLICATION_SERVER_URL = "http://localhost:6080/";
         } else {
             APPLICATION_SERVER_URL = "https://4s2tq9t9-6080.euw.devtunnels.ms/";
         }
     }
-debugger
+
     // If LIVEKIT_URL is not configured, use default value from OpenVidu Local deployment
     if (!LIVEKIT_URL) {
         if (window.location.hostname === "localhost") {
-            LIVEKIT_URL = "https://6cb0-95-49-63-156.ngrok-free.app";
+            LIVEKIT_URL = "http://localhost:7880/";
         } else {
-            LIVEKIT_URL = "https://6cb0-95-49-63-156.ngrok-free.app";
+            LIVEKIT_URL = "https://4fb6-81-26-6-36.ngrok-free.app/";
         }
     }
 }
